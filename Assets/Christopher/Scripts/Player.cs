@@ -6,8 +6,15 @@ namespace Christopher.Scripts
 {
     public class Player : MonoBehaviour {
         public List<ItemToSell> Inventory;
-        public ItemToSell[] Chest;
+        public List<ItemToSell> Chest;
+        public int Score;
 
+        public void ResetPlayer() {
+            Inventory.Clear();
+            Chest.Clear();
+            Score = 0;
+        }
+        
         private void OnTriggerEnter2D(Collider2D other) {
             if (other.transform.CompareTag("Item")) {
                 Inventory.Add(other.transform.GetComponent<Item>().MyCurrentItemData);

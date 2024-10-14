@@ -20,6 +20,6 @@ public class ControllerThxYvan2D : MonoBehaviour {
         vec.x = vec.x * _xPower;
         vec.z = 0;
         vec.y = vec.y *_yPower;
-        _rb.velocity = vec;
+        _rb.velocity = vec * Time.fixedDeltaTime;
     }
 }

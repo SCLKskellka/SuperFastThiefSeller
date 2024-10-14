@@ -47,7 +47,6 @@ namespace Christopher.Scripts
                     transform.GetComponent<SpriteRenderer>().color = ItemEncyclopedia.Instance.ComonColor;
                     break;
             }
-            //Debug.Log(MyCurrentItemData.name);
         }
     }
 }

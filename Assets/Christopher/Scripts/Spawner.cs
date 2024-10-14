@@ -17,26 +17,20 @@ public class Spawner : MonoBehaviour
        _maxValue = ItemManager.Instance.maxValue;
     }
 
-    private void Start()
-   {
+    private void Start() {
       if(objectToSpawn.activeSelf == false)objectToSpawn.SetActive(true);
    }
 
    private void Update() {
-     
       if (objectToSpawn.activeSelf == false && _isStarted == false) {
          Random random = new Random();
          _currentValue = random.Next((int)_minValue, (int)_maxValue);
          _isStarted = true;
-         Debug.Log(_currentValue);
       }
-
       if (_currentValue > 0) {
          _currentValue -= Time.deltaTime;
-         Debug.Log(_currentValue);
       } 
       if(_currentValue <= 0 && _isStarted){
-         Debug.Log(_currentValue);
          objectToSpawn.SetActive(true);
          _isStarted = false;
       }

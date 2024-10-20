@@ -1,17 +1,21 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Christopher.Scripts
 {
     public class GameManager : MonoBehaviourSingleton<GameManager>
     {
-        [SerializeField] private Transform playerStartPos;
-        [SerializeField] private GameObject player;
+        public GameObject Player;
+        
+        [SerializeField] private Transform playerStartPos; 
         [Header("UI Elements")]
         [SerializeField] private GameObject inGameUI;
         [SerializeField] private GameObject mainMenuUI;
         [SerializeField] private GameObject pauseMenuUI;
-        [SerializeField] private GameObject tradingMenuUI;
+        public GameObject tradingMenuUI;
+        [Header("trading step")]
+        [SerializeField] private Inventory inventory;
         private bool _tradingSequence;
 
         private void Awake() {
@@ -23,8 +27,8 @@ namespace Christopher.Scripts
         }
 
         public void InitializeGameSequence() {
-            player.transform.position = playerStartPos.position;
-            player.transform.GetComponent<Player>().ResetPlayer();
+            Player.transform.position = playerStartPos.position;
+            Player.transform.GetComponent<Player>().ResetPlayer();
             mainMenuUI.SetActive(false);
             pauseMenuUI.SetActive(false);
             inGameUI.SetActive(true);
@@ -34,7 +38,7 @@ namespace Christopher.Scripts
         }
         
         public void ResetGameSequence() {
-            player.transform.position = playerStartPos.position;
+            Player.transform.position = playerStartPos.position;
             mainMenuUI.SetActive(false);
             pauseMenuUI.SetActive(false);
             inGameUI.SetActive(true);
@@ -43,12 +47,12 @@ namespace Christopher.Scripts
             _tradingSequence = false;
         }
 
-        public void TradingSequence()
-        {
+        public void TradingSequence() {
             mainMenuUI.SetActive(false);
             pauseMenuUI.SetActive(false);
             inGameUI.SetActive(false);
             tradingMenuUI.SetActive(true);
+            Time.timeScale = 0;
             _tradingSequence = true;
         }
 
@@ -62,16 +66,7 @@ namespace Christopher.Scripts
         public void Resume() {
             mainMenuUI.SetActive(false);
             pauseMenuUI.SetActive(false);
-            
-            if (_tradingSequence) {
-                tradingMenuUI.SetActive(true);
-                inGameUI.SetActive(false);
-            }
-            else {
-                tradingMenuUI.SetActive(false);
-                inGameUI.SetActive(true);
-                Time.timeScale = 1;
-            }
+            Time.timeScale = 1;
         }
 
         public void LeaveGameSequence() {

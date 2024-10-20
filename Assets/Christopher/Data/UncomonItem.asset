@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08f0f94b2924bd89d1f2bc34a96e525, type: 3}
   m_Name: UncomonItem
   m_EditorClassIdentifier: 
-  MyIcon: {fileID: 21300000, guid: d19a506ef61a075449df8c27f9ada929, type: 3}
+  MyIcon: {fileID: 21300000, guid: 95f8350bf453549458ed5a0143040621, type: 3}
   MyRarity: 1
   MyValue: 30

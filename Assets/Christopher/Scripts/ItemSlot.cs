@@ -1,14 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
-using Christopher.Scripts;
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-abstract class ItemSlot : MonoBehaviour {
-   public Player player;
+namespace Christopher.Scripts {
+   public class ItemSlot : MonoBehaviour {
+      public ItemToSell ItemData = null;
+      public GameObject MyChild;
 
-   public void OnDrop(PointerEventData eventData)
-   {
-      Debug.Log("Dropped");
+      private void Awake() {
+         MyChild = transform.GetChild(0).gameObject;
+      }
+      private void Update() {
+         if (ItemData != null && MyChild.transform.GetComponent<Image>().sprite != ItemData.MyIcon){
+            MyChild.transform.GetComponent<Image>().sprite = ItemData.MyIcon;
+            MyChild.SetActive(true);
+         }
+         if (ItemData == null && MyChild.transform.GetComponent<Image>().sprite != null) {
+            MyChild.transform.GetComponent<Image>().sprite = null;
+            MyChild.SetActive(false);
+         }
+      }
    }
 }

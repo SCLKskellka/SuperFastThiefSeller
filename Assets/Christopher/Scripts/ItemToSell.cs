@@ -5,5 +5,6 @@ using Color = System.Drawing.Color;
 public class ItemToSell : ScriptableObject {
     public Sprite MyIcon;
     public Helper.Rarity MyRarity;
-    public int MyValue;
+    public int BasicValue;
+    public int CurrentValue;
 }

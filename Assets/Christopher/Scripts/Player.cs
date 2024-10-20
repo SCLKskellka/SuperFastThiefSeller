@@ -14,15 +14,19 @@ namespace Christopher.Scripts
             Chest.Clear();
             Score = 0;
         }
+
+        public void IncrementScore(ItemToSell item) {
+            Score += item.CurrentValue;
+        }
         
         private void OnTriggerEnter2D(Collider2D other) {
             if (other.transform.CompareTag("Item")) {
                 Inventory.Add(other.transform.GetComponent<Item>().MyCurrentItemData);
                 other.gameObject.SetActive(false);
+                Debug.Log("nombre d'objet ramassé:"+Inventory.Count);
             }
             if (other.transform.CompareTag("Exit")) {
-                //timescale 0 + reste gameposition to begin
-                //open stocking and selling menu
+                GameManager.Instance.TradingSequence();
             }
         }
     }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4186169c524cee74496ce6ec419fc002
+guid: 5e81c0d91c228124c8e76de0ad0049af
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,148 +123,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bouton1
+      name: Panneau_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 1619
-        width: 211
-        height: 256
+        x: 173
+        y: 848
+        width: 891
+        height: 137
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 43, y: 59, z: 42, w: 48}
+      pivot: {x: 0, y: 0}
+      border: {x: 26, y: 21, z: 34, w: 27}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0cb03c1355476c458fedaac81c158fd
-      internalID: -1960180525
+      spriteID: 27a0eb918369add48aaa37508599b829
+      internalID: 292835874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bouton2
+      name: Panneau_1
       rect:
         serializedVersion: 2
-        x: 282
-        y: 1618
-        width: 211
-        height: 259
+        x: 15
+        y: 848
+        width: 131
+        height: 130
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 43, y: 55, z: 41, w: 56}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce36b2f60ce728f4e843c1ea2a844393
-      internalID: -1128271816
+      spriteID: f4c449f5e8ac56f41a28ca5f86d406a7
+      internalID: -1321262720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bouton3
+      name: Panneau_2
       rect:
         serializedVersion: 2
-        x: 516
-        y: 1621
-        width: 208
-        height: 256
+        x: 68
+        y: 1048
+        width: 942
+        height: 764
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 46, y: 59, z: 56, w: 51}
+      pivot: {x: 0, y: 0}
+      border: {x: 143, y: 154, z: 131, w: 148}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 735baa8b809cf1041b3c708a9ad41c5d
-      internalID: -72230921
+      spriteID: ffe184f9998685e468e1ddd9e6fa7b50
+      internalID: -2066917510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bouton4
+      name: Panneau_3
       rect:
         serializedVersion: 2
-        x: 69
-        y: 1227
-        width: 628
-        height: 224
+        x: 49
+        y: 56
+        width: 1000
+        height: 751
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 58, y: 53, z: 80, w: 47}
+      pivot: {x: 0, y: 0}
+      border: {x: 162, y: 181, z: 161, w: 135}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef7f4ee3ebc198549811074f51167c6f
-      internalID: 1197769640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bouton5
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 961
-        width: 643
-        height: 228
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 52, y: 72, z: 66, w: 53}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8de96397fbdba5f4cb2da64b731d4114
-      internalID: 364416716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bouton6
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 690
-        width: 634
-        height: 228
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 52, y: 48, z: 66, w: 46}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5288582e7edc2c4428af222963b0f945
-      internalID: 1786608106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bouton7
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 416
-        width: 637
-        height: 229
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 99, y: 49, z: 113, w: 62}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a279872269328564d8f16654bd144aba
-      internalID: -15071538
+      spriteID: 7023800899cbad34e99089ba3429cdc2
+      internalID: -1709606729
       vertices: []
       indices: 
       edges: []
@@ -272,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 69481122f12c7524f985c57dd40368a5
+    spriteID: 7c5ec701f345c5b44acae7f1e19ac51a
     internalID: 0
     vertices: []
     indices: 
@@ -280,13 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bouton1: -1960180525
-      Bouton2: -1128271816
-      Bouton3: -72230921
-      Bouton4: 1197769640
-      Bouton5: 364416716
-      Bouton6: 1786608106
-      Bouton7: -15071538
+      Panneau_0: 292835874
+      Panneau_1: -1321262720
+      Panneau_2: -2066917510
+      Panneau_3: -1709606729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

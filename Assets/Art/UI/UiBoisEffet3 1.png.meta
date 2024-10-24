@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 49de132b38da6c1429241bbf317d9cba
+guid: 79030b2dd93aa3241a2f64e8d4d9132e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,55 +123,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UiBoisEffet3_0
+      name: UiBoisEffet3 1_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1524
-        width: 603
-        height: 366
+        x: 38
+        y: 1459
+        width: 681
+        height: 419
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 78, y: 91, z: 82, w: 94}
+      border: {x: 100, y: 114, z: 102, w: 110}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9e85e98d8b62842b9bb14b5a0cec04
-      internalID: 892082343
+      spriteID: 0a30ecfb964f45a4089e6752a184ea1c
+      internalID: 31901099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UiBoisEffet3_1
+      name: UiBoisEffet3 1_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 1090
-        width: 629
-        height: 350
+        x: 39
+        y: 979
+        width: 751
+        height: 419
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 48, y: 52, z: 41, w: 55}
+      border: {x: 148, y: 145, z: 150, w: 136}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdd5d51dc456361418714425662b4234
-      internalID: -1575253108
+      spriteID: 8ee806dcfc83fe348b7e775aa87355f8
+      internalID: -1836318195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UiBoisEffet3_2
+      name: UiBoisEffet3 1_2
       rect:
         serializedVersion: 2
-        x: 779
-        y: 1556
+        x: 39
+        y: 440
+        width: 371
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 61, y: 115, z: 73, w: 111}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29146c1d026b6c74d842174357e3b107
+      internalID: 1630130166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiBoisEffet3 1_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 727
         width: 195
-        height: 202
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a0f344aeef7c28418579f7dfbb1b478
-      internalID: 1911143272
+      spriteID: d2a255622a022624a8de41db06c56b80
+      internalID: -562153023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UiBoisEffet3_3
+      name: UiBoisEffet3 1_4
       rect:
         serializedVersion: 2
-        x: 777
-        y: 1284
+        x: 620
+        y: 436
         width: 199
-        height: 205
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,71 +221,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f71fa817d9ed0914491fe6c33bc5cc14
-      internalID: 1385153449
+      spriteID: 35d9e9b47d0d8784c82765fbe280cdef
+      internalID: 934334034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UiBoisEffet3_4
+      name: UiBoisEffet3 1_5
       rect:
         serializedVersion: 2
-        x: 41
-        y: 862
-        width: 795
+        x: 122
+        y: 224
+        width: 807
         height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 19, y: 17, z: 22, w: 18}
+      border: {x: 31, y: 22, z: 31, w: 14}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: addaa1f4e36e4b54c9baf815bbff63c9
-      internalID: -2097690213
+      spriteID: c85459426a11d724ebecfe9a0fafe05f
+      internalID: -2019454036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UiBoisEffet3_5
+      name: UiBoisEffet3 1_6
       rect:
         serializedVersion: 2
-        x: 40
-        y: 707
-        width: 796
-        height: 97
+        x: 118
+        y: 71
+        width: 813
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 24, y: 14, z: 22, w: 15}
+      border: {x: 23, y: 14, z: 34, w: 22}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3725aa775b8f72a4b9b04db5bdf1c1a4
-      internalID: -1743987146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UiBoisEffet3_6
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 211
-        width: 323
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 23, y: 89, z: 20, w: 82}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a95dca36e6397e74fb02fa1cbf8c9d04
-      internalID: 1587940076
+      spriteID: 8cd045adcc364b04eb0925496d4df31a
+      internalID: -1274654988
       vertices: []
       indices: 
       edges: []
@@ -272,7 +272,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 31e2f65c1813d504d9c9bb4f4b5d3d4a
+    spriteID: 3773e93b4bd380d4d8e347cee068c2a1
     internalID: 0
     vertices: []
     indices: 
@@ -280,13 +280,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      UiBoisEffet3_0: 892082343
-      UiBoisEffet3_1: -1575253108
-      UiBoisEffet3_2: 1911143272
-      UiBoisEffet3_3: 1385153449
-      UiBoisEffet3_4: -2097690213
-      UiBoisEffet3_5: -1743987146
-      UiBoisEffet3_6: 1587940076
+      UiBoisEffet3 1_0: 31901099
+      UiBoisEffet3 1_1: -1836318195
+      UiBoisEffet3 1_2: 1630130166
+      UiBoisEffet3 1_3: -562153023
+      UiBoisEffet3 1_4: 934334034
+      UiBoisEffet3 1_5: -2019454036
+      UiBoisEffet3 1_6: -1274654988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -16,7 +16,6 @@ namespace Christopher.Scripts
         public GameObject tradingMenuUI;
         [Header("trading step")]
         [SerializeField] private Inventory inventory;
-        private bool _tradingSequence;
 
         private void Awake() {
             Time.timeScale = 0;
@@ -34,7 +33,6 @@ namespace Christopher.Scripts
             inGameUI.SetActive(true);
             tradingMenuUI.SetActive(false);
             Time.timeScale = 1;
-            _tradingSequence = false;
         }
         
         public void ResetGameSequence() {
@@ -44,7 +42,6 @@ namespace Christopher.Scripts
             inGameUI.SetActive(true);
             tradingMenuUI.SetActive(false);
             Time.timeScale = 1;
-            _tradingSequence = false;
         }
 
         public void TradingSequence() {
@@ -53,7 +50,6 @@ namespace Christopher.Scripts
             inGameUI.SetActive(false);
             tradingMenuUI.SetActive(true);
             Time.timeScale = 0;
-            _tradingSequence = true;
         }
 
         public void Pause() {

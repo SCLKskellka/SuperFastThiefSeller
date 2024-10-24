@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Christopher.Scripts {
     public class TraddingItemUIManager : MonoBehaviourSingleton<TraddingItemUIManager> {
@@ -7,8 +8,8 @@ namespace Christopher.Scripts {
         //public GameObject Chest;
         //public GameObject Trader;
         [Header("TraddingScripts")] 
-        public Inventory inventory;
-        public Chest chest;
+        public Inventory Inventory;
+        public Chest Chest;
         [Header("DropArea")]
         public GameObject InventoryDropArea;
         public GameObject ChestDropArea;
@@ -24,7 +25,7 @@ namespace Christopher.Scripts {
 
         public void ActiveArea() {
             InventoryDropArea.SetActive(true);
-            if (chest.HaveFreeSlot())ChestDropArea.SetActive(true);
+            if (Chest.HaveFreeSlot())ChestDropArea.SetActive(true);
             else ChestDropArea.SetActive(false);
             TraderDropArea.SetActive(true);
         }

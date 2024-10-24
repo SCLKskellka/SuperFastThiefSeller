@@ -5003,12 +5003,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a13c9d0813b324abae14dbb1b10f20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 0}
-  chest: {fileID: 0}
+  Inventory: {fileID: 5496123427845037492}
+  Chest: {fileID: 9206893582354257941}
   InventoryDropArea: {fileID: 618774792}
   ChestDropArea: {fileID: 521209701}
   TraderDropArea: {fileID: 821182258}
-  tradingMenuUI: {fileID: 0}
+  tradingMenuUI: {fileID: 8915970215129417932}
 --- !u!1001 &500620211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6096,6 +6096,7 @@ GameObject:
   - component: {fileID: 521209702}
   - component: {fileID: 521209704}
   - component: {fileID: 521209703}
+  - component: {fileID: 521209705}
   m_Layer: 5
   m_Name: DropChestPanel
   m_TagString: Chest
@@ -6160,6 +6161,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521209701}
   m_CullTransparentMesh: 1
+--- !u!114 &521209705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521209701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b269f0d9f3982149841256765e1a238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &609894669 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3236862362187528604, guid: 8a001f3559d418d459a5c22924d9bb9e,
@@ -6251,6 +6264,7 @@ GameObject:
   - component: {fileID: 618774793}
   - component: {fileID: 618774795}
   - component: {fileID: 618774794}
+  - component: {fileID: 618774796}
   m_Layer: 5
   m_Name: DropInvPanel
   m_TagString: Inventory
@@ -6315,6 +6329,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618774792}
   m_CullTransparentMesh: 1
+--- !u!114 &618774796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618774792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b269f0d9f3982149841256765e1a238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &659922560
 GameObject:
   m_ObjectHideFlags: 0
@@ -9361,6 +9387,7 @@ GameObject:
   - component: {fileID: 821182259}
   - component: {fileID: 821182261}
   - component: {fileID: 821182260}
+  - component: {fileID: 821182262}
   m_Layer: 5
   m_Name: DropTraderPanel
   m_TagString: Trader
@@ -9425,6 +9452,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821182258}
   m_CullTransparentMesh: 1
+--- !u!114 &821182262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821182258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b269f0d9f3982149841256765e1a238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &826990583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29904,6 +29943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a8ce13865fb00541bb139592ab5f208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PreviousParent: {fileID: 0}
 --- !u!114 &1765600498
 MonoBehaviour:
   m_ObjectHideFlags: 0
